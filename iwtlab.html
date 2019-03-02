@@ -1,0 +1,61 @@
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope" rel="stylesheet">
+	<style>
+		body{
+			background-color:#17A589;
+			margin: 200px;
+			font-size: 30px;
+			font-family: 'Annie Use Your Telescope', cursive;
+		}
+		p{
+         /*padding-right: 40px*/
+		}
+		td{
+			width:200px;
+			font-size:30px;
+		}
+		input,select
+		{
+			width:300px;
+			height:30px;
+			/*margin-left:200px;*/
+		}
+		div{
+			background-color: white;
+		}
+	</style>
+</head>
+<body>
+	<div>
+	<form>
+		<table>
+	<tr><td>Full name</p></td><td><input type="text" name="name" placeholder="Full Name"><br></td></tr>
+	<tr><td>Roll No:</td><td><input type="number" name="rollno"  placeholder="RollNo"><br></td></tr>
+    <tr><td>Department:</td>
+    	<td>
+    <select name="dept"  placeholder="Department">
+    	<option>Chemical Engineering</option>
+    	<option>Civil Engineering</option>
+    	<option>ComputerScience Engineering</option>
+    	<option>Electrical Engineering</option>
+    	<option>Electronics and Telecommunication</option>
+    	<option>Information Technolgy</option>
+    	<option>Mechanical Engineering</option>
+    	<option>Metallurgy Engineering</option>
+    	<option>Mining engineering</option>
+
+    </select>
+</td>
+</tr>
+    <tr><td>Email ID</td><td><input type="email" name="email"  placeholder="email"><br></td></tr>
+    <tr><td>Contact Number</td><td><input type="number" name="number"  placeholder="Email"><br></td></tr>
+    <tr><td>Password</td><td><input type="password" name="password" id="main"  placeholder="Password"><br></td></tr>
+    <tr><td>Confirm Password</td><td><input type="password" id="cmain"  placeholder="ConfirmPassword"><br></td></tr>
+   <tr><td> <button onclick="show()">Submit</button></td></tr>
+</table>
+    
+</form>
+</div>
+	</body>
+</html>
