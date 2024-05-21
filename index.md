@@ -1,5 +1,3 @@
-Here you can say lots of fun things about your site.
+I write various renditions of my understandings, focusing on technical blogs here.
 
-Maybe say a some things about yourself.
-
-Or maybe what you plan to blog about.
+Stay Tuned....
